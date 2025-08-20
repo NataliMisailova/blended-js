@@ -71,12 +71,87 @@
 // console.log(5 + true * 5);// 10
 // console.log(10 / (5 * true));// 2
 
-console.log(5>4);//true
-console.log(5<4);//false
-console.log(5>=4);//true
-console.log(5<=4);//false
-console.log(5<="4");//false
-console.log("5">=4);// true
-console.log("5"<="4");//false
-console.log("5">="4");//true
-console.log("2">="12")//true
+// console.log(5>4);//true
+// console.log(5<4);//false
+// console.log(5>=4);//true
+// console.log(5<=4);//false
+// console.log(5<="4");//false
+// console.log("5">=4);// true
+// console.log("5"<="4");//false
+// console.log("5">="4");//true
+// console.log("2">="12")//true
+// console.log("Student">="Student")//true
+// console.log("Student">="student")//false
+
+// console.log(4=="4")//true
+// console.log(4==="4")//false
+// console.log("1"==true)//true
+// console.log("1"===true)//false
+// console.log(undefined==null)//true
+// console.log(undefined===null)//false
+
+// let lalala = "50m";
+// console.log(Number.parseInt(lalala));//50
+// let user = "50.12m";
+// console.log(Number.parseInt(user));//50
+
+// let prace = "50.12m"
+// console.log(Number.parseFloat(prace));//50.12
+
+// let num = "50m";
+// console.log(Math.random(num));//випадкове число від 0-1
+
+// const num1 = 50.45;
+// console.log(Math.floor(num1));//заокруглення 50
+
+// const num2 = 50.45;
+// console.log(Math.ceil(num2));//заокруглення 51
+
+// const num3 = 50.45;
+// console.log(Math.round(num3));//заокруглення 50
+// const num4 = 50.55;
+// console.log(Math.round(num4));//заокруглення 51
+
+
+
+// function lalala(group1, group2){
+// const sum = group1 + group2;
+// return sum;
+// }
+
+// const resolt = lalala(10, 20);
+// console.log(resolt);
+
+
+// const user ="Dima";//глобальна зона видимості
+
+// function adduser(){
+//     const newuser = "Anna";//локальна зона видимості
+//     console.log(newuser);//Anna
+//     console.log(user); //Dima
+// }
+// adduser()
+
+// console.log(user);//Dima
+
+
+// _______________________________________________________________
+
+// const salary = 500;
+// if (salary >= 500){
+//     console.log(`It cool`);  
+// } else if(salary <= 300){
+//     console.log(`It good`);
+// }
+
+
+// const salary1 = 400;
+// if (salary1 >= 500){
+//     console.log(`It cool`);  
+// } else{
+//     console.log(`It good`);
+// }
+
+// let salary2;
+// salary2 = salary2 >= 400 ? `It cool` : `It good`;           !!!!!!!! не вірно
+// console.log(salary2);
